@@ -48,7 +48,7 @@
 	font-size: 1.15em;
 }
 
-.intro__title {
+.content__title {
 	margin: 0 0 20px;
 	font-weight: 900;
 	font-size: 4em;
@@ -66,6 +66,7 @@
 .intro__description {
 	margin: 0 auto 0 1em;
 	line-height: 1.2;
+	z-index: 10000;
 }
 
 /* Trigger button with SVG */
@@ -87,6 +88,9 @@
 .trigger span {
 	position: absolute;
 	top: 100%;
+}
+.my-links {
+	z-index: 10000;
 }
 
 .icon rect,
@@ -226,7 +230,7 @@
 		height: 90vw;
 	}
 
-	.intro__title {
+	.content__title {
 		font-size: 2em;
 	}
 }
