@@ -5,6 +5,8 @@
         var contactTrigger = document.getElementById( 'contact-trigger');
         var glitch = document.getElementsByClassName( 'demo-2');
         var imgLoaded = document.getElementsByClassName( 'imgloaded ');
+        var body = document.getElementsByTagName("BODY")[0];
+
 
         var glitchStyle = window.getComputedStyle(glitch[0]);
         var glitchAnimation = glitchStyle.getPropertyValue('--time-anim');
@@ -24,6 +26,13 @@
             classie.remove( trigger, 'trigger--active' );
             window.addEventListener( 'scroll', noscroll );
             glitch[0].style.setProperty('--time-anim', '4s');
+            body.classList.add("stop-scrolling");
+            //For Moble devices
+            body.bind('touchmove', function(e){
+                e.preventDefault();
+            });
+
+
 
 
         }
@@ -34,6 +43,11 @@
             window.removeEventListener( 'scroll', noscroll );
             // changeAnimation();
             glitch[0].style.setProperty('--time-anim', '0s');
+            body.classList.remove("stop-scrolling");
+            //for mobile devices
+            body.unbind('touchmove')
+
+
 
         }
     }
