@@ -37,6 +37,7 @@
 
         }
         else {
+
             classie.add( container, 'container--open' );
             classie.add( trigger, 'trigger--active' );
             classie.remove( container, 'glitch');
