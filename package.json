@@ -1,0 +1,22 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wisejayden/personal-website.git"
+  },
+  "author": "Jayden Wise",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wisejayden/personal-website/issues"
+  },
+  "homepage": "https://github.com/wisejayden/personal-website#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
