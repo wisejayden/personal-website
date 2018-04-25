@@ -1,3 +1,95 @@
+@font-face {
+    font-family: 'adam';
+    src: url('/fonts/adam.cg_pro-webfont.woff2') format('woff2'),
+        url('/fonts/adam.cg_pro-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'alcu';
+    src: url('/fonts/alcubierre-webfont') format('woff2'),
+        url('/fonts/alcubierre-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'baron';
+    src: url('/fonts/baron_neue-webfont.woff2') format('woff2'),
+        url('/fonts/baron_neue-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'fab';
+    src: url('/fonts/fabrica-webfont.woff2') format('woff2'),
+        url('/fonts/fabrica-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'high';
+    src: url('/fonts/higher-webfont.woff2') format('woff2'),
+        url('/fonts/higher-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'marbre';
+    src: url('/fonts/marbe_sans-webfont.woff2') format('woff2'),
+        url('/fonts/marbe_sans-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'momobo';
+    src: url('/fonts/momobo-2-webfont.woff2') format('woff2'),
+        url('/fonts/momobo-2-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'phage';
+    src: url('/fonts/phage_regular-webfont.woff2') format('woff2'),
+        url('/fonts/phage_regular-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'qan-light';
+    src: url('/fonts/qanelassoftdemo-ultralight-webfont.woff2') format('woff2'),
+        url('/fonts/qanelassoftdemo-ultralight-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'qan-dark';
+    src: url('/fonts/qanelassoftdemo-extrabold-webfont.woff2') format('woff2'),
+        url('/fonts/qanelassoftdemo-extrabold-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'simplifica';
+    src: url('/fonts/simplifica_typeface-webfont.woff2') format('woff2'),
+        url('/fonts/simplifica_typeface-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'stellar';
+    src: url('/fonts/stellar-regular-webfont.woff2') format('woff2'),
+        url('/fonts/stellar-regular-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+body {
+    font-family: 'alcu';
+}
+a {
+    font-family: 'stellar';
+}
 
 .container {
 	overflow: hidden;
@@ -61,7 +153,7 @@
 	margin: 0 0 20px;
 	font-weight: 900;
 	font-size: 4em;
-	font-family: "Playfair Display", Georgia, serif;
+	/* font-family: "Playfair Display", Georgia, serif; */
 	/* line-height: 1; */
 }
 
@@ -86,18 +178,16 @@
 	overflow: hidden;
 	margin: 0 0 0 20px;
 	padding: 0;
-	width: 40px;
+	width: 105px;
 	height: 40px;
 	outline: none;
 	border: none;
 	background: none;
 }
 
+
 /* Hide the text */
-.trigger span {
-	position: absolute;
-	top: 100%;
-}
+
 .my-links {
 	z-index: 10000;
 }
@@ -170,6 +260,8 @@
 	border: 5px solid #2a2e39;
 	border-width: 0 5px 10px;
 	background: #2a2e39;
+    font-family: 'qan-light';
+
 }
 
 .item__image {
@@ -197,7 +289,6 @@
 	padding: 1em;
 	color: #dbdbdb;
 	font-size: 1.85em;
-	font-family: "Playfair Display", Georgia, serif;
 	line-height: 1;
 	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
 	transition: transform 0.3s, opacity 0.3s;
