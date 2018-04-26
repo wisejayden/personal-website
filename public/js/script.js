@@ -8,8 +8,6 @@
         var body = document.getElementsByTagName("BODY")[0];
         var portfolio = document.getElementById('portfolio');
 
-
-
         var glitchStyle = window.getComputedStyle(glitch[0]);
         var glitchAnimation = glitchStyle.getPropertyValue('--time-anim');
         console.log("GLITCH ANIMATION", glitchAnimation);
@@ -86,6 +84,5 @@
 
 
 
-    // For Demo purposes only (prevent jump on click)
-    [].slice.call( document.querySelectorAll('.items-wrap a') ).forEach( function(el) { el.onclick = function() { return false; } } );
+
 })();

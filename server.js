@@ -10,6 +10,9 @@ app.get('/', function(req, res) {
 app.get('/about', function(req, res) {
     res.sendFile(__dirname + '/index2.html');
 });
+app.get('/bvg-animated', function(req, res) {
+    res.sendFile(__dirname + '/index3.html');
+});
 app.get('*', function(req, res) {
     res.redirect('/');
 });

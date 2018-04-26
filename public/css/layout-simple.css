@@ -89,6 +89,7 @@ body {
 }
 a {
     font-family: 'stellar';
+    pointer: cursor;
 }
 
 .container {
@@ -190,6 +191,8 @@ a {
 
 .my-links {
 	z-index: 10000;
+    display: inline-block;
+    font-size: 1.2em;
 }
 
 .icon rect,
@@ -267,13 +270,15 @@ a {
 .item__image {
 	position: absolute;
 	top: 50%;
-	min-height: 100%;
+	/* min-height: 100%; */
 	width: 100%;
 	opacity: 0.7;
 	-webkit-transform: translate3d(0, -50%, 0) scale3d(1.2, 1.2, 1);
 	transform: translate3d(0, -50%, 0) scale3d(1.2, 1.2, 1);
 	-webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
 	transition: transform 0.5s, opacity 0.5s;
+    pointer-events: none;
+    cursor: default;
 }
 
 .item:hover .item__image {
@@ -292,6 +297,10 @@ a {
 	line-height: 1;
 	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
 	transition: transform 0.3s, opacity 0.3s;
+
+}
+.warning {
+    display: inline-block;
 }
 
 .item:hover .item__title {
@@ -333,4 +342,7 @@ a {
 	.content__title {
 		font-size: 2em;
 	}
+    .intro__description {
+        display: none;
+    }
 }

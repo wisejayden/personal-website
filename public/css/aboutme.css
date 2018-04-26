@@ -106,6 +106,8 @@ button {
     transform: translateX(-50%);
     bottom: 100px;
 }
+
+
 .social-images {
     display: inline-block;
     height: 40px;
@@ -136,13 +138,31 @@ button {
 .email {
     vertical-align: bottom;
 }
+.js-copytextarea {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background: transparent;
+
+}
+#email-confirmation {
+    color: #fe470e;
+    opacity: 0;
+}
+
 
 @media screen and (max-width: 640px) {
     .about {
         width: 95%;
         line-height: 35px;
         font-size: 1.5em;
-        top: 20%;
+        top: 10%;
         letter-spacing: 0px;
 
     }
@@ -154,7 +174,15 @@ button {
         margin-right: auto;
     }
     .resume {
-        font-size: 1.5em;
+        font-size: 1.4em;
 
     }
+}
+
+
+@media screen and (orientation:landscape) {
+    .social {
+        bottom: 50px;
+    }
+
 }
