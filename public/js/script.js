@@ -1,4 +1,5 @@
 (function() {
+
     var container = document.getElementById( 'container' ),
         trigger = container.querySelector( 'button.trigger' );
         var storyTrigger = document.getElementById( 'my-story');
@@ -7,18 +8,8 @@
         var imgLoaded = document.getElementsByClassName( 'imgloaded ');
         var body = document.getElementsByTagName("BODY")[0];
         var portfolio = document.getElementById('portfolio');
-
         var glitchStyle = window.getComputedStyle(glitch[0]);
         var glitchAnimation = glitchStyle.getPropertyValue('--time-anim');
-        console.log("GLITCH ANIMATION", glitchAnimation);
-
-
-        // function changeAnimation() {
-        //     glitch[0].style.animationDuration= "0s";
-        //     console.log("CHanged Duration!", glitch[0].style);
-        //     imgLoaded[0].style.animationDuration = "0s";
-        //
-        // }
         portfolio.addEventListener( 'click', toggleContent );
 
 
@@ -49,27 +40,16 @@
             portfolio.innerHTML = "Close";
 
             window.removeEventListener( 'scroll', noscroll );
-            // changeAnimation();
 
             glitch[0].style.setProperty('--time-anim', '0s');
             body.classList.remove("stop-scrolling");
             //for mobile devices
             body.unbind('touchmove')
-
-
-
         }
     }
-
-
-
-    // document.getElementById("p2").style.color = "blue";
-
-
     function noscroll() {
         window.scrollTo( 0, 0 );
     }
-
     // reset scrolling position
     document.body.scrollTop = document.documentElement.scrollTop = 0;
 
@@ -77,12 +57,5 @@
     window.addEventListener( 'scroll', noscroll );
 
     portfolio.addEventListener( 'click', toggleContent );
-    // contactTrigger.addEventListener( 'click', toggleContact );
-    // glitch[0].addEventListener( 'click', function() {
-    //     console.log("HELLO!");
-    // } );
-
-
-
 
 })();

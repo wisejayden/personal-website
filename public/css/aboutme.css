@@ -116,14 +116,6 @@ button {
 
 }
 
-#mario {
-    width: 300px;
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%);
-
-}
 #go-back {
 
     padding: 12px 24px;
@@ -135,6 +127,17 @@ button {
     font-family: 'adam';
 
 }
+#go-back:hover {
+    color: #737475;
+}
+
+
+
+
+
+
+
+
 .email {
     vertical-align: bottom;
 }
