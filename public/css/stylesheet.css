@@ -164,7 +164,7 @@ a {
     right: -202px;
     /* right: 100px; */
     z-index: 100000;
-    animation: flyaway 10s linear 2s infinite;
+    animation: flyaway 20s linear 2s infinite;
 }
 
 @keyframes flyaway {
