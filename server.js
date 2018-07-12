@@ -13,6 +13,9 @@ app.get('/about', function(req, res) {
 app.get('/bvg-animated', function(req, res) {
     res.sendFile(__dirname + '/index3.html');
 });
+app.get('/rock-paper-scissors', function(req, res) {
+    res.sendFile(__dirname + '/public/rps/index.html');
+})
 app.get('*', function(req, res) {
     res.redirect('/');
 });

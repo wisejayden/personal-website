@@ -1,0 +1,78 @@
+data = {
+    "loss": [
+        "\"Appear weak when you are strong, and strong when you are weak.\" <br>― Sun Tzu, The Art of War",
+        "\"The supreme art of war is to subdue the enemy without fighting.\" <br>― Sun Tzu, The Art of War",
+        "\"Let your plans be dark and impenetrable as night, and when you move, fall like a thunderbolt.\" <br>― Sun Tzu, The Art of War",
+        "\":Supreme excellence consists of breaking the enemy's resistance without fighting.\" <br>― Sun Tzu, The Art of War",
+        "\"Victorious warriors win first and then go to war, while defeated warriors go to war first and then seek to win.\" <br>― Sun Tzu, The Art of War",
+        "\"In the midst of chaos, there is also opportunity.\" <br>― Sun Tzu, A Arte da Guerra",
+        "\"The greatest victory is that which requires no battle.\" <br>― Sun Tzu, The Art of War",
+        "\"There is no instance of a nation benefitting from prolonged warfare.\" <br>― Sun Tzu, The Art of War",
+        "\"Move swift as the Wind and closely-formed as the Wood. Attack like the Fire and be still as the Mountain.\" <br>― Sun Tzu, The Art of War",
+        "\"Treat your men as you would your own beloved sons. And they will follow you into the deepest valley.\" <br>― Sun Tzu, The Art of War",
+        "\"When you surround an army, leave an outlet free. Do not press a desperate foe too hard.\" <br>― Sun Tzu, The Art of War",
+        "\"The wise warrior avoids the battle.\" <br>― Sun Tzu, The Art of War"
+    ],
+    "rock": [
+        "A rock is a solid substance that occurs naturally due to geological process of solidification, sedimentation and metamorphism.",
+        "Every rock is made up of various minerals. However, a mineral is an inorganic solid that has one chemical composition.",
+        "The structure of a rock is not uniform. Various minerals and weathering give the rock its texture. However, a mineral has definite crystalline structure, which gives it a unique color.",
+        "Broadly, rocks can be classified into three types, namely, igneous, sedimentary and metamorphic rocks.",
+        "A rock is formed when magma erupts from the Earth's core and solidifies due to the difference in the temperature outside.",
+        "Chemical sedimentary rocks are a result of dissolved minerals which are left behind when water evaporates.",
+        "The oldest rocks on the surface of the Earth are igneous rocks.",
+        "The constant exposure to sun, water and wind bring about a change in size and shape of the rocks.",
+        "A rock is a continuous process of formation, being worn down and then forming again. This process is known as the Rock Cycle.",
+        "Pumice is an igneous rock, formed when frothy lava solidifies. This is the only rock that floats.",
+        "Fossils are found in sedimentary rocks.",
+        "Metamorphic rocks are the ones that have changed from either being sedimentary or igneous.",
+        "Gemstones are minerals and not rocks, as they are popularly addressed.",
+        "A mountain is essentially a rock.",
+        "Sand is a result of constant weathering of rocks."
+    ],
+    "paper": [
+        "It takes an average of 5 liters of water to produce one piece of A4 paper.",
+        "Chinese were the first nation in the world who started producing paper by hand. This happened almost 2000 years ago.",
+        "Oldest surviving trace of papyrus comes from 3000 BC Egypt.",
+        "Watermarks on paper were first used in 13th century Italy.",
+        "Recycling one ton of paper saves 17 trees!",
+        "Toilet paper started being produced in late 9th century China.",
+        "The use of paper is growing with each passing year.",
+        "The oldest European document written on paper comes from 1109. It was a deed of Sicillian king King Roger II written in Greek and Arabic.",
+        "During its lifetime, one American citizen uses 465 trees for its paper needs.",
+        "During the American Revolution, paper was so hard to find that soldiers ripped pages from books to use them as wadding for their rifles."
+    ],
+    "scissors": [
+        "It is estimated that scissors, in a basic shear like form made from one piece of metal, were invented in 1500 BC in Egypt, and further modifications to the design, allowing a cross cut action, were made by the Romans in 100 AD.",
+        "The term ‘scissors’ comes from the Latin word ‘cisoria’, meaning ‘cutting instrument’.",
+        "Scissors that have the pivot closer to the end of the blade and further away from the handle increases the cutting strength of the scissors.",
+        "Tin snips are scissors used for cutting tin.",
+        "Pivot action scissors were being used by the 6th century, and in 1761, Robert Hinchliffe is said to have started the production of cast metal scissors, similar to our modern day scissors.",
+        "Scissors are typically no more than 15 -20 cm (6 – 7.8 inches) in length, as bigger sizes are usually called ‘shears’.",
+        "Typical scissors are for right handed people, so special left handed scissors with the blades mirror reversed are manufactured, which makes cutting easier and neater for left handed people.",
+        "The Hangzhou Zhang Xiaoquan Company in Hangzhou, China, has been manufacturing scissors since 1663.",
+        "In parts of North Africa, it was held that scissors could be used to curse a bridegroom. When the bridegroom was on horseback, the person enacting the curse would stand behind him with the scissors open and call his name. If the bridegroom answered to his name being called, the scissors would then be snapped shut and the bridegroom would be unable to consummate his marriage with his bride.",
+        "In Pakistan, some believe that scissors should never be idly opened and closed without purpose. This is believed to cause bad luck.",
+        "In New Orleans, some believed that putting an open pair of scissors underneath your pillow at night was a sound method for sleeping well, even if one is cursed.",
+        "It is believed in some Eastern European countries that leaving scissors open causes fights and disagreement within a household.",
+        "It is believed in China that giving scissors to a friend or loved one is to be cutting ties with them."
+
+    ],
+    "computer": [
+        "The root is at the top of the tree.",
+        "The first electronic computer ENIAC weighed more than 27 tons and took up 1800 square feet.",
+        "Doug Engelbart invented the first computer mouse in around 1964 which was made of wood.",
+        "An average person normally blinks 20 times a minute, but when using a computer he/she blinks only 7 times a minute.",
+        "Ada Lovelace, the daughter of the English poet Lord Byron, is considered to be the first computer programmer.",
+        "\"Before software can be reusable it first has to be usable.\" <br>- Ralph Johnson",
+        "If at first you don’t succeed; call it version 1.0",
+        "If Internet Explorer is brave enough to ask to be your default browser, You are brave enough to ask that girl out.",
+        "Things aren’t always #000000 and #FFFFFF",
+        "A user interface is like a joke. If you have to explain it, it’s not that good.",
+        "\"I don’t care if it works on your machine! We are not shipping your machine!\" <br>– Vidiu Platon",
+        "\"Software Developer\" – An organism that turns caffeine into software",
+        "It’s not a bug. It’s an undocumented feature!"
+
+    ]
+
+}

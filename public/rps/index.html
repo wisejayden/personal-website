@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Rock, Paper, Scissors by Jayden Wise</title>
+        <link rel="stylesheet" href="rps/rps-stylesheet.css">
+    </head>
+    <body>
+        <h1>Rock, Paper, Scissors</h1>
+        <h2>By Jayden Wise</h2>
+        <div class="background">
+            <div id="open-screen">
+                <div id="welcome">Since the beginning of time, there has been one game to resolve all disputes.<br> <br>A game of skill...<br>A game of ingenuity...<br>A game of class...<br><br>That game is known simply as...<br><br> Rock, Paper, Scissors </div>
+                <button id="start">Start</button>
+            </div>
+
+            <img id="intro-image"src="rps/img/rps-logo.png" />
+            <div class="game-selection hide">
+                <span id="welcome-message">How would you like to play?</span>
+                <img class="player-select pvc" name="Player Vs Computer" src="rps/img/humanvscomp.png" />
+                <img class="player-select cvc" name="Computer vs Computer" src="rps/img/compvscomp.png" />
+            </div>
+
+            <div class="scoreboard hide">
+                <div id="left-player"></div>
+                <span id="left-score">0</span>:<span id="right-score">0</span>
+                <div id="right-player"></div>
+            </div>
+
+            <div class="player-vs-computer-game hide">
+                <h2 class="game-title">You versus the machine</h2>
+                <img class="go-back" name="Go Back" src="rps/img/go-back2.png" />
+                <span id="left-side-turn-pvc" class="left-side-turn">Player turn</span>
+                <span id="call-to-action">Select an option below</span>
+                <span id="right-side-turn-pvc"class="right-side-turn hide">Computer turn</span>
+                <div>
+                    <img id="rock-selection-pvc-left"class="left-selection hide" name="rock" src="rps/img/rock.png" />
+                    <img id="paper-selection-pvc-left" class="left-selection hide" name="paper" src="rps/img/paper.png" />
+                    <img id="scissors-selection-pvc-left" class="left-selection hide" name="scissors"   src="rps/img/scissors.png" />
+                    <img id="rock-selection-pvc-right" class="right-selection hide" name="rock" src="rps/img/rock.png" />
+                    <img id="paper-selection-pvc-right" class="right-selection hide" name="paper" src="rps/img/paper.png" />
+                    <img id="scissors-selection-pvc-right" class="right-selection hide" name="scissors"   src="rps/img/scissors.png" />
+                </div>
+                <div class="rps-hand-container">
+                    <div class="player-1-container">
+                        <span class="player">Player</span>
+                        <div class="rps-hand-images">
+                            <img class="player-option option" name="rock" src="rps/img/rock.png" />
+                            <img class="player-option option" name="paper" src="rps/img/paper.png" />
+                            <img class="player-option option" name="scissors" src="rps/img/scissors.png" />
+                        </div>
+                    </div>
+                    <div class="player-1-container">
+                        <span class="player">Computer</span>
+                        <div class="rps-hand-images">
+                            <img class="pvc-computer-choice option" name="rock" src="rps/img/rock.png" />
+                            <img class="pvc-computer-choice option" name="paper" src="rps/img/paper.png" />
+                            <img class="pvc-computer-choice option" name="scissors" src="rps/img/scissors.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="computer-vs-computer-game hide">
+                <h2 class="game-title">Computer Battle!</h2>
+                <button id="cpu-battle-button">Play</button>
+                <img class="go-back" name="Go Back" src="rps/img/go-back2.png" />
+                <div>
+                    <img id="rock-selection-cvc-left"class="left-selection hide" name="rock" src="rps/img/rock.png" />
+                    <img id="paper-selection-cvc-left" class="left-selection hide" name="paper" src="rps/img/paper.png" />
+                    <img id="scissors-selection-cvc-left" class="left-selection hide" name="scissors"   src="rps/img/scissors.png" />
+                    <img id="rock-selection-cvc-right" class="right-selection hide" name="rock" src="rps/img/rock.png" />
+                    <img id="paper-selection-cvc-right" class="right-selection hide" name="paper" src="rps/img/paper.png" />
+                    <img id="scissors-selection-cvc-right" class="right-selection hide" name="scissors"   src="rps/img/scissors.png" />
+                </div>
+                <div class="rps-hand-container">
+                    <div class="player-1-container">
+                        <span class="player">Computer 1</span>
+                        <div class="rps-hand-images">
+                            <img class="cvc1-choice option" name="rock" src="rps/img/rock.png" />
+                            <img class="cvc1-choice option" name="paper" src="rps/img/paper.png" />
+                            <img class="cvc1-choice option" name="scissors" src="rps/img/scissors.png" />
+                        </div>
+                    </div>
+                    <div class="player-1-container">
+                        <span class="player">Computer 2</span>
+                        <div class="rps-hand-images">
+                            <img class="cvc2-choice option" name="rock" src="rps/img/rock.png" />
+                            <img class="cvc2-choice option" name="paper" src="rps/img/paper.png" />
+                            <img class="cvc2-choice option" name="scissors" src="rps/img/scissors.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="winner-container-back" class="hide">
+                <div id="winner-container" class="hide">
+                    <h2 id="win" class="hide">WINNER!</h2>
+                    <h2 id="draw" class="hide">DRAW...</h2>
+                    <h2 id="lose" class="hide">YOU LOSE</h2>
+                    <h2 id="cpu1win" class="hide">Computer 1 Wins</h2>
+                    <h2 id="cpu2win" class="hide">Computer 2 Wins</h2>
+                    <p id="victory-message"></p>
+                    <span id="close">X</span>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="rps/rps-quotes.json"></script>
+        <script type="text/javascript" src="rps/rps-script.js"></script>
+    </body>
+</html>
